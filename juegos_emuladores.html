@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos Emuladores</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Juegos Emuladores</h1>
+    <div class="juegos">
+        <div class="cuadricula" onclick="toggleDetails('juego3')">
+            <p>Juego 3</p>
+            <div id="juego3" class="detalles" style="display: none;">
+                <img src="images/juego3.jpg" alt="Juego 3">
+                <p class="descripcion">Descripción del Juego 3: Un clásico que nunca pasa de moda, lleno de acción y diversión.</p>
+                <a href="https://example.com/juego3" class="boton-descargar">Descargar</a>
+            </div>
+        </div>
+        <div class="cuadricula" onclick="toggleDetails('juego4')">
+            <p>Juego 4</p>
+            <div id="juego4" class="detalles" style="display: none;">
+                <img src="images/juego4.jpg" alt="Juego 4">
+                <p class="descripcion">Descripción del Juego 4: Un juego de estrategia que pondrá a prueba tus habilidades mentales.</p>
+                <a href="https://example.com/juego4" class="boton-descargar">Descargar</a>
+            </div>
+        </div>
+    </div>
+    <a href="index.html">Volver</a>
+</body>
+</html>

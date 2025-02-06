@@ -1,0 +1,83 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.cuadricula {
+    background-color: #1e1e1e; /* Fondo de las cuadrículas */
+    border: 1px solid #282828; /* Borde oscuro */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px;
+    margin: 10px;
+    width: 200px; /* Ancho de las cuadrículas */
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer; /* Cambia el cursor al pasar sobre la cuadrícula */
+}
+
+.cuadricula:hover {
+    background-color: #282828; /* Color de fondo al pasar el mouse */
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+.juegos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.juegos .cuadricula {
+    width: 200px; /* Ancho de las cuadrículas */
+    margin: 10px;
+}
+
+.juegos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+}
+
+.descripcion {
+    font-size: 14px;
+    color: #b3b3b3; /* Texto gris claro */
+    margin-top: 5px;
+}
+
+.boton-descargar {
+    display: inline-block;
+    background-color: #1db954; /* Color verde de Spotify */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 15px;
+    border-radius: 30px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.boton-descargar:hover {
+    background-color: #1aa34a; /* Color verde más oscuro al pasar el mouse */
+}
+
+a {
+    color: #1db954; /* Color verde de Spotify para los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}

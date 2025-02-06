@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos APK</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Juegos APK</h1>
+    <div class="juegos">
+        <div class="cuadricula" onclick="toggleDetails('juego1')">
+            <p>Juego 1</p>
+            <div id="juego1" class="detalles" style="display: none;">
+                <img src="images/juego1.jpg" alt="Juego 1">
+                <p class="descripcion">Descripción del Juego 1: Este es un juego emocionante que te mantendrá entretenido durante horas.</p>
+                <a href="https://example.com/juego1" class="boton-descargar">Descargar</a>
+            </div>
+        </div>
+        <div class="cuadricula" onclick="toggleDetails('juego2')">
+            <p>Juego 2</p>
+            <div id="juego2" class="detalles" style="display: none;">
+                <img src="images/juego2.jpg" alt="Juego 2">
+                <p class="descripcion">Descripción del Juego 2: Un juego de aventuras que te llevará a mundos fantásticos.</p>
+                <a href="https://example.com/juego2" class="boton-descargar">Descargar</a>
+            </div>
+        </div>
+    </div>
+    <a href="index.html">Volver</a>
+</body>
+</html>
